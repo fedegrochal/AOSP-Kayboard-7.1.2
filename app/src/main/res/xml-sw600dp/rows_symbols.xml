@@ -72,4 +72,6 @@
         <include
             latin:keyboardLayout="@xml/key_emoji" />
     </Row>
+    <include
+        latin:keyboardLayout="@xml/margin" />
 </merge>
