@@ -26,8 +26,6 @@
             latin:keyboardLayoutSet="bengali_akkhor|farsi|kannada|nepali_romanized|nepali_traditional|telugu"
             latin:languageSwitchKeyEnabled="true"
         >
-            <include
-                latin:keyboardLayout="@xml/key_emoji" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="30%p" />
@@ -38,8 +36,6 @@
             latin:keyboardLayoutSet="bengali_akkhor|farsi|kannada|nepali_romanized|nepali_traditional|telugu"
             latin:languageSwitchKeyEnabled="false"
         >
-            <include
-                latin:keyboardLayout="@xml/key_emoji" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="40%p" />
@@ -49,16 +45,12 @@
         <case
             latin:languageSwitchKeyEnabled="true"
         >
-            <include
-                latin:keyboardLayout="@xml/key_emoji" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="40%p" />
         </case>
         <!-- languageSwitchKeyEnabled="false" -->
         <default>
-            <include
-                latin:keyboardLayout="@xml/key_emoji" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="50%p" />

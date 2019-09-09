@@ -65,6 +65,4 @@
             latin:keyStyle="enterKeyStyle"
             latin:keyWidth="fillRight" />
     </Row>
-    <include
-        latin:keyboardLayout="@xml/margin" />
 </merge>

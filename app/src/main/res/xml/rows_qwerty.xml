@@ -52,6 +52,4 @@
     </Row>
     <include
         latin:keyboardLayout="@xml/row_qwerty4" />
-    <include
-        latin:keyboardLayout="@xml/margin" />
 </merge>
